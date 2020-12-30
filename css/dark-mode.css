@@ -1,0 +1,115 @@
+[data-theme="dark"] {
+    background-color: #111 !important;
+    color: #eee;
+  }
+
+  [data-theme="dark"] .b{
+      background: #121212;
+  }
+
+  
+  [data-theme="dark"] .title-text{
+    color: #3bc27e;
+}
+[data-theme="dark"] .title1-text{
+    color:white;
+}
+[data-theme="dark"] .button.primary-button
+{
+    background: var(--gradient-color);
+    background-clip:padding-box ;
+    color: white;
+    transition: 0.6s ease;
+    box-shadow: 5px 5px 20px 10px black;
+}
+[data-theme="dark"] .button.primary-button:hover
+{
+    background: white;
+    color: black;
+    background-clip: padding-box;
+}
+  [data-theme="dark"] .bg-light {
+    background-color: #333 !important;
+  }
+
+  [data-theme="dark"] .navbar
+  {
+    box-shadow: 4px 7px 20px 0px #000000;
+  }
+
+  [data-theme="dark"] .profile
+  {
+    color: white;
+    /* background-clip: padding-box; */
+    box-shadow: 2px 0px 20px 20px rgb(0 0 0);
+    border-radius: 2rem;
+    height: 350px;
+    width: 300px;
+
+  }
+  [data-theme="dark"] .site-main .site-banner .site-title h4{
+    color: #3bc27e;
+      font-size: 1.5rem;
+  
+  }
+
+
+[data-theme="dark"] .cardi
+{
+    /* background:#1f2933; */
+    border-radius: 2rem;
+    background: #1f2933;
+    /* padding:2rem 0;
+    width: 16rem;
+    margin: 5rem .5rem; */
+    box-shadow: 5px 5px 20px 14px black;
+    transition: var(--box-shadow) .7 ease;
+}
+[data-theme="dark"] .cardi:hover
+{
+    box-shadow: var(--box-shadow);
+}
+[data-theme="dark"] .site-banner
+{
+  border-bottom: 1px solid #343435;
+}  
+[data-theme="dark"] .a{
+    color: rgb(23, 221, 145);
+}
+
+[data-theme="dark"] .about-title
+{
+  color: #3bc27e;
+  font-size: 3rem;
+}
+
+[data-theme="dark"] .about_area
+{
+  border-bottom: 1px solid #343435;
+}
+[data-theme="dark"]  .c-cardi
+{
+    background: #1f2933;
+    margin:2rem 8rem;
+    height:15rem;
+    padding:2rem;
+    box-shadow: 5px 5px 20px 10px black;;
+    transition: var(--box-shadow) .7 ease;
+}
+[data-theme="dark"] card-title
+{
+  color: white;
+}
+
+[data-theme="dark"] .contact
+{
+  padding:2rem;
+  border-bottom: 1px solid #343435;
+}
+  [data-theme="dark"] .bg-white {
+    background-color: #000 !important;
+  }
+  
+  [data-theme="dark"] .bg-black {
+    background-color: #eee !important;
+  }
