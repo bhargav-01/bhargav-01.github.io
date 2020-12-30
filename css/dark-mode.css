@@ -56,12 +56,8 @@
 
 [data-theme="dark"] .cardi
 {
-    /* background:#1f2933; */
     border-radius: 2rem;
     background: #1f2933;
-    /* padding:2rem 0;
-    width: 16rem;
-    margin: 5rem .5rem; */
     box-shadow: 5px 5px 20px 14px black;
     transition: var(--box-shadow) .7 ease;
 }
@@ -90,9 +86,6 @@
 [data-theme="dark"]  .c-cardi
 {
     background: #1f2933;
-    margin:2rem 8rem;
-    height:15rem;
-    padding:2rem;
     box-shadow: 5px 5px 20px 10px black;;
     transition: var(--box-shadow) .7 ease;
 }
@@ -103,7 +96,6 @@
 
 [data-theme="dark"] .contact
 {
-  padding:2rem;
   border-bottom: 1px solid #343435;
 }
   [data-theme="dark"] .bg-white {
