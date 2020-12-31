@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lobster+Two:ital@1&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
-@import url(./partials/_variables.css);
+@import url('/partials/_variables.css');
 
 .b{
   background: #f2f2f2;
