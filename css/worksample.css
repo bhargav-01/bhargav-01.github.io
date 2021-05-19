@@ -6,7 +6,7 @@
 .b{
     background: #f2f2f2;
 }
-.header_area .main-menu .navbar .navbar-brand {
+.header_area .main-menu .navbar  {
     padding: 0 2rem 0 5rem;
 }
 .header_area .main-menu .navbar
@@ -15,7 +15,8 @@
 }
 .navbar
 {
-  box-shadow: 4px 7px 20px 0px #5f5d5d;
+    background-color: #ffff;
+    box-shadow: 1px 1px 14px 1px #5f5d5d
 }
 .navbar-brand h3
 {
@@ -23,9 +24,9 @@
     font-family: 'Lobster Two', cursive;
     font-weight: 100;
     padding-top: 10pt;
-    padding-left:10pt;
+    /* padding-left:10pt; */
     vertical-align: middle;
-    font-size: 25px;
+    /* font-size: 30px; */
 }
 .header_area .main-menu .nav-item .nav-link
 {
@@ -92,7 +93,7 @@
 }
 .img
 {
-    height: 700px;
+    height: 800px;
     border-radius: 1rem;
 }
 .cardi

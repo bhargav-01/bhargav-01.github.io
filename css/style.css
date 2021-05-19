@@ -3,9 +3,9 @@
 @import url('/partials/_variables.css');
 
 .b{
-  background: #f2f2f2;
+  background: #faffff;
 }
-.header_area .main-menu .navbar .navbar-brand {
+.header_area .main-menu .navbar  {
   padding: 0 2rem 0 5rem;
 }
 .header_area .main-menu .navbar
@@ -14,17 +14,25 @@
 }
 .navbar
 {
-box-shadow: 4px 7px 20px 0px #5f5d5d;
+  background-color: #ffff;
+  box-shadow: 1px 1px 14px 1px #5f5d5d
 }
+@media screen and (max-width: 800px) {
+  .navbar-brand
+  {
+    font-size: 1px;
+  } 
+}
+
 .navbar-brand h3
 {
   font-family: 'Lobster', cursive;
   font-family: 'Lobster Two', cursive;
-  font-weight: 100;
+  font-weight: 120;
   padding-top: 10pt;
-  padding-left:10pt;
+  /* padding-left:10pt; */
   vertical-align: middle;
-  font-size: 25px;
+  /* font-size: 30px; */
 }
 .header_area .main-menu .nav-item .nav-link
 {

@@ -1,5 +1,5 @@
 [data-theme="dark"] {
-    background-color: #111 !important;
+    background-color: rgb(33 33 35) !important;
     color: #eee;
   }
 
@@ -63,7 +63,13 @@
 }
 [data-theme="dark"] .cardi:hover
 {
-    box-shadow: var(--box-shadow);
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+  /* box-shadow: 0 10px 10px rgba(0,0,0,.15)!important; */
+  
+  box-shadow: var(--box-shadow);
+  transition: 0.5s ease;
+  box-shadow: var(--box-shadow);
 }
 [data-theme="dark"] .site-banner
 {
